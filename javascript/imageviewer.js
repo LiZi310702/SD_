@@ -14,7 +14,7 @@ function showModal(event) {
     lb.style.display = "flex";
     lb.focus();
 
-    const tabTxt2Img = gradioApp().getElementById("tab_txt2img");
+    //const tabTxt2Img = gradioApp().getElementById("tab_txt2img");
     const tabImg2Img = gradioApp().getElementById("tab_img2img");
     // show the save button in modal only on txt2img or img2img tabs
     if (tabTxt2Img.style.display != "none" || tabImg2Img.style.display != "none") {
